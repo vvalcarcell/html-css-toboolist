@@ -99,7 +99,7 @@ h3, .arrow {
     font-size: 8px;
     text-align: center;
     padding: 5px;
-    border-radius: 10%;
+    border-radius: 12px;
     height: 20px;
     margin-left: 3px;
 }
@@ -131,6 +131,15 @@ h3, .arrow {
 
 .mobile {
     background-color: #df9712;
+    width: 40px;
+}
+
+.website {
+    background-color: #f043be;
+}
+
+.sales {
+    background-color: rgb(77, 209, 77);
     width: 40px;
 }
     
