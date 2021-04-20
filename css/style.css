@@ -48,8 +48,6 @@ button {
     margin-left: 4px;
 }
     
-
-
 .list {
     margin-top: 30px;
 }
@@ -68,6 +66,10 @@ h3, .entity, .tag {
 ul {
     list-style-type: none;
     margin-left: 5px;
+}
+
+li {
+    margin-bottom: 15px;
 }
 
 .check {
@@ -94,7 +96,7 @@ h3, .arrow {
 
 .tag {
     color: white;
-    font-size: 10px;
+    font-size: 8px;
     text-align: center;
     padding: 5px;
     border-radius: 10%;
@@ -103,9 +105,36 @@ h3, .arrow {
 }
 
 .editorial {
-    background-color: #3399ff;
-    width: 50px;
+    background-color: #57a7f7;
+    width: 55px;
 }
+
+.cross {
+    border: 1px solid rgb(173, 38, 38);
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(173, 38, 38);
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.recruiting {
+    background-color: #1d5b93;
+}
+
+.goals {
+    background-color: #904a93;
+    width: 55px;
+}
+
+.mobile {
+    background-color: #df9712;
+    width: 40px;
+}
+    
+
     
 
 
