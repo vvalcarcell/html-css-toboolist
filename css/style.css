@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .Logo {
@@ -18,6 +19,7 @@ h1 {
 .container {
     width: 1200px;
     margin: 0 auto;
+    font-size: 15px;
 }
 
 main {
@@ -43,6 +45,7 @@ button {
     background-color: white;
     border: 1px solid rgba(87, 80, 80, 0.4);
     color: rgba(87, 80, 80, 0.4);
+    margin-left: 4px;
 }
     
 
@@ -54,6 +57,8 @@ button {
 .arrow {
     font-size: 30px;
     vertical-align: middle;
+    width: 20px;
+    height: 42px;
 }
 
 h3, .entity, .tag {
@@ -75,6 +80,16 @@ ul {
     border-radius: 50%;
     padding: 2px;
     font-size: 10px;
+    line-height: 10px;
+}
+
+.description {
+    color: #595959;
+    margin-left: 4px;
+}
+
+h3, .arrow {
+    color: #404040;
 }
 
 .tag {
@@ -84,6 +99,7 @@ ul {
     padding: 5px;
     border-radius: 10%;
     height: 20px;
+    margin-left: 3px;
 }
 
 .editorial {
