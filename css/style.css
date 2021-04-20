@@ -5,6 +5,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+header {
+    margin: 10px 5px;
+}
+
 .Logo {
     height: 60px;
     width: 60px;
@@ -16,15 +20,10 @@ h1 {
     display: inline-block;
 }
 
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    font-size: 15px;
-}
-
 main {
     width: 800px;
-    margin: 10px auto;
+    margin: 30px 200px;
+    font-size: 15px;
 }
 
 button {
@@ -78,11 +77,11 @@ li {
     width: 15px;
     text-align: center;
     font-weight: bold;
+    font-size: 10px;
+    line-height: 10px;
     color: green;
     border-radius: 50%;
     padding: 2px;
-    font-size: 10px;
-    line-height: 10px;
 }
 
 .description {
@@ -96,11 +95,11 @@ h3, .arrow {
 
 .tag {
     color: white;
+    height: 20px;
     font-size: 8px;
     text-align: center;
     padding: 5px;
     border-radius: 12px;
-    height: 20px;
     margin-left: 3px;
 }
 
@@ -115,9 +114,9 @@ h3, .arrow {
     width: 15px;
     text-align: center;
     font-weight: bold;
+    font-size: 10px;
     color: rgb(173, 38, 38);
     border-radius: 50%;
-    font-size: 10px;
 }
 
 .recruiting {
@@ -143,7 +142,4 @@ h3, .arrow {
     width: 40px;
 }
     
-
-    
-
 
