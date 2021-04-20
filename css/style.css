@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Logo {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.Logo-text {
+    display: inline-block;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+main {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.list {
+    margin-top: 30px;
+}
+
+.arrow {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+h3, .entity, .tag {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.check {
+    border: 1px solid green;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.tag {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 40%;
+    height: 20px;
+}
+
+.editorial {
+    background-color: #3399ff;
+    width: 50px;
+    
+}
+
+
