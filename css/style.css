@@ -5,6 +5,23 @@
     font-family: 'Lato', sans-serif;
 }
 
+/** Utility Classes**/
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.list {
+    margin-top: 30px;
+}
+
+/** End Utility Classes**/
+
 header {
     margin: 10px 5px;
 }
@@ -16,23 +33,17 @@ header {
     vertical-align: middle;
 }
 
-h1 {
-    display: inline-block;
+.Logo-text {
+    font-size: 35px;
+    font-weight: bold;
+    vertical-align: middle;
 }
+
 
 main {
-    width: 800px;
-    margin: 30px 200px;
+    width: 1200px;
+    margin: 40px auto;
     font-size: 15px;
-}
-
-button {
-    cursor: pointer;
-    border: none;
-    padding: 5px;
-    text-align: center;
-    border-radius: 5px;
-    font-size: 10px;
 }
 
 .blue {
@@ -45,10 +56,6 @@ button {
     border: 1px solid rgba(87, 80, 80, 0.4);
     color: rgba(87, 80, 80, 0.4);
     margin-left: 4px;
-}
-    
-.list {
-    margin-top: 30px;
 }
 
 .arrow {
